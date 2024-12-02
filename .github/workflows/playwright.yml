@@ -8,6 +8,9 @@ on:
     types: [trigger-webhook]
 jobs:
   test:
+    env: 
+      VALIDPASSWORD: ${{ secrets.VALID_PASSWORD }}
+      INVALIDPASSWORD: ${{ secrets.INVALID_PASSWORD }}
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:

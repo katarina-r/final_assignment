@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+          "username": "Consumer",
+          "role": "consumer"
+        },
+        {
+          "username": "Business",
+          "role": "business"
+          },
+        {
+          "username": "InvalidUser",
+          "role": "consumer"
+        }
+      ]
+  }
