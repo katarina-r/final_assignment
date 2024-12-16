@@ -2,15 +2,18 @@
     "users": [
         {
           "username": "Consumer",
-          "role": "consumer"
+          "role": "consumer",
+          "address": "Address1"
         },
         {
           "username": "Business",
-          "role": "business"
+          "role": "business",
+          "address": "Address2"
           },
         {
           "username": "InvalidUser",
-          "role": "consumer"
+          "role": "consumer",
+          "address": "Address3"
         }
       ]
   }

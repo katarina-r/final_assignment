@@ -19,10 +19,6 @@ export class LoginPage {
         this.errorMessage = page.getByTestId("error-message");
         this.header = page.locator("h2");
     }
-    
-    async goToPage() {
-    await this.page.goto('https://hoff.is/login/');
-    }
 
     async login(username: string, password: string, usertype: string) {
         await this.usernameInput.fill(username);
